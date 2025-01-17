@@ -24,7 +24,7 @@
 html,
 body {
   width: 100vw;
-  height: 900vh;
+  height: 950vh;
   overflow-x: hidden;
 }
 body {
@@ -300,13 +300,14 @@ section {
   display: flex;
   flex-direction: column;
   height: 150vh;
-  margin-top: 900px;
+  margin-top: 1200px;
 }
 .howitworks div {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 90%;
+  min-height: 400px;
   overflow: hidden;
   border-radius: 40px;
   padding: 50px;
@@ -319,11 +320,12 @@ section {
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    height: 800px;
-    /* overflow: hidden; */
+    height: max-content;
     border-radius: 40px;
     padding: 50px;
+    height: 200vh;
   }
+
   .howitworks {
     width: 100%;
     display: flex;
