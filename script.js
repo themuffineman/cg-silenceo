@@ -11,7 +11,7 @@ function initialAnimation() {
   const scene = new THREE.Scene();
   // scene.background = new THREE.Color(0xfefdfd);
   scene.background = null;
-  const Modelsize = window.innerWidth < 500 ? 120 : 75;
+  const Modelsize = window.innerWidth < 500 ? 90 : 75;
 
   const camera = new THREE.PerspectiveCamera(
     Modelsize,

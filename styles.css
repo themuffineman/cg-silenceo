@@ -24,7 +24,7 @@
 html,
 body {
   width: 100vw;
-  height: 950vh;
+  height: max-content;
   overflow-x: hidden;
 }
 body {
@@ -205,7 +205,9 @@ section {
 .lenis.lenis-smooth iframe {
   pointer-events: none;
 }
-
+.gallery-sec {
+  height: max-content;
+}
 .gallery {
   position: relative;
   display: flex;
@@ -299,8 +301,8 @@ section {
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 150vh;
-  margin-top: 1200px;
+  height: max-content;
+  /* margin-top: 100px; */
 }
 .howitworks div {
   display: flex;
@@ -324,6 +326,9 @@ section {
     border-radius: 40px;
     padding: 50px;
     height: 200vh;
+  }
+  .gallery-sec {
+    margin-top: 500px;
   }
 
   .howitworks {
@@ -383,7 +388,7 @@ ul {
 }
 .footer {
   width: 100%;
-  background-color: #99c5ff;
+  background-color: #000;
   padding: 70px 0;
   position: absolute;
   bottom: 0;
@@ -419,26 +424,23 @@ ul {
   color: white;
   text-decoration: none;
   font-weight: 300;
-
   display: block;
   transition: all 0.3s ease;
 }
 .footer-col ul li a:hover {
-  color: black;
-
+  color: #f0f0f0;
   padding-left: 8px;
 }
 .footer-col .social-links a {
   display: inline-block;
   height: 40px;
   width: 40px;
-  background-color: black;
+  background-color: white;
   margin: 0 10px 10px 0;
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
-  color: white;
-
+  color: black;
   transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover {
