@@ -245,9 +245,9 @@ function initialAnimation() {
         model.rotation.x = scrollProgress * Math.PI * 2;
       }
 
-      if (scrollProgress < 1) {
-        model.rotation.y += 0.001 * rotationSpeed;
-      }
+      // if (scrollProgress < 1) {
+      //   model.rotation.y += 0.001 * rotationSpeed;
+      // }
     }
 
     renderer.render(scene, camera);

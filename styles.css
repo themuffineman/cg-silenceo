@@ -328,7 +328,7 @@ section {
     height: 200vh;
   }
   .gallery-sec {
-    margin-top: 500px;
+    margin-top: 900px;
   }
 
   .howitworks {
@@ -458,5 +458,9 @@ ul {
 @media (max-width: 574px) {
   .footer-col {
     width: 100%;
+  }
+  footer {
+    height: 380px;
+    padding: 5px;
   }
 }
