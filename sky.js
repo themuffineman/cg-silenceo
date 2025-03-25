@@ -3,7 +3,6 @@ function createSkyBackground() {
   // Create container with same styling as React version
   const skyContainer = document.createElement("div");
   skyContainer.style.position = "fixed";
-  //   skyContainer.style.inset = "0";
   skyContainer.style.width = "100vw";
   skyContainer.style.height = "100vh";
   skyContainer.style.zIndex = "-1";
